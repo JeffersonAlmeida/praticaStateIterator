@@ -46,4 +46,11 @@ public class Produto {
 		System.out.println("Estado :: " + estado.getClass().getName());
 		System.out.println("************************************");
 	}
+
+	@Override
+	public String toString() {
+		return "Produto [estado=" + estado.getClass().getName() + ", nome=" + nome + ", quant : "+estado.getQuantidade()+"]";
+	}
+	
+	
 }
